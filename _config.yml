@@ -9,20 +9,20 @@ relative_permalinks: false
 plugins: [jekyll-paginate]
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
+title:            Quinson
+tagline:          'Hon Kwan Shun Quinson's Profile'
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+url:              https://hksquinson.github.io/portfolio/
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Hon Kwan Shun Quinson'
+  url:            https://hksquinson.github.io/portfolio/
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          b0.0.1
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://hksquinson.github.io/portfolio/
