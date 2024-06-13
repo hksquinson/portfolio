@@ -9,14 +9,14 @@ relative_permalinks: false
 plugins: [jekyll-paginate]
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            "Quinson's Profile"
+tagline:          "Hon Kwan Shun Quinson's Profile"
+description:      'A penultimate-year artificial intelligence undergraduate in CUHK'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
+  name:           'Hon Kwan Shun Quinson'
   url:            https://twitter.com/mdo
 
 paginate:         5
