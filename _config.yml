@@ -12,8 +12,8 @@ plugins: [jekyll-paginate]
 title:            "Quinson's Profile"
 tagline:          "Hon Kwan Shun Quinson's Profile"
 description:      'A penultimate-year artificial intelligence undergraduate in CUHK'
-url:              http://hyde.getpoole.com
-baseurl:          /
+url:              https://hksquinson.github.io/portfolio/
+baseurl:          '/'
 
 author:
   name:           'Hon Kwan Shun Quinson'
