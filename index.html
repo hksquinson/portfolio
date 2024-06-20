@@ -3,17 +3,19 @@ layout: default
 title: Home
 ---
 
-<h1> Hon Kwan Shun Quinson </h1>
-<p class="lead">Final-year Student at the Chinese University of Hong Kong</p>
-<p>BEng in Artificial Intelligence: Systems and Technologies</p>
-<p>
-    Email: <a href="mailto:hksquinson@gmail.com">hksquinson@gmail.com</a><br>
-    Github: <a href="https://github.com/hksquinson">hksquinson</a><br>
-    LinkedIn: <a href="https://www.linkedin.com/in/hksquinson/">hksquinson</a>
-</p>
-<p>
-    (Short bio with research interests)
-</p>
+<div class="bio">
+  <h1> Hon Kwan Shun Quinson </h1>
+  <p class="lead">Final-year Student at the Chinese University of Hong Kong</p>
+  <p>BEng in Artificial Intelligence: Systems and Technologies</p>
+  <p>
+      Email: <a href="mailto:hksquinson@gmail.com">hksquinson@gmail.com</a><br>
+      Github: <a href="https://github.com/hksquinson">hksquinson</a><br>
+      LinkedIn: <a href="https://www.linkedin.com/in/hksquinson/">hksquinson</a>
+  </p>
+  <p>
+      (Short bio with research interests)
+  </p>
+</div>
 
 <h2> News: </h2>
 
@@ -37,15 +39,15 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="{{ '/page' | append: paginator.next_page | relative_url }}">Older</a>
   {% else %}
     <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+      <a class="pagination-item newer" href="{{ '/' | relative_url }}">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ '/page' | append: paginator.previous_page | relative_url }}">Newer</a>
     {% endif %}
   {% else %}
     <span class="pagination-item newer">Newer</span>
@@ -53,9 +55,9 @@ title: Home
 </div>
 
 <p>
-    Check out my <a href = "{{ site.baseurl }}projects">Projects</a> page for more information.
+Check out my <a href="{{ '/experience' | relative_url }}">Experience</a> page for more information about my work.
 </p>
 
 <p>
-    This website is made with <a href="https://github.com/hyde/hyde">Hyde</a>, a Jekyll based theme.
+This website is made with <a href="https://github.com/hyde/hyde">Hyde</a>, a Jekyll based theme.
 </p>
