@@ -45,6 +45,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  /* line-height: 1.2; */
 }
 
 html {
@@ -106,7 +107,7 @@ h4, h5, h6 {
 /* Body text */
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 strong {
@@ -331,6 +332,14 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+
+}
+
+.post-header {
+  margin-bottom: 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Blog post or page title */
@@ -348,7 +357,7 @@ tbody tr:nth-child(odd) th {
 .post-date {
   display: block;
   margin-top: -.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: #9a9a9a;
 }
 
@@ -397,7 +406,7 @@ tbody tr:nth-child(odd) th {
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
-  padding: 1rem;
+  padding: 0.5rem;
   border: 1px solid #eee;
 }
 .pagination-item:first-child {

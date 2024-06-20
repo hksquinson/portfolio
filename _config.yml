@@ -11,7 +11,7 @@ plugins: [jekyll-paginate]
 # Setup
 title:            "Quinson's Profile"
 tagline:          "Hon Kwan Shun Quinson's Profile"
-description:      'A penultimate-year artificial intelligence undergraduate in CUHK'
+description:      'A Final-year artificial intelligence undergraduate in CUHK'
 url:              https://hksquinson.github.io/portfolio/
 baseurl:          '/'
 
