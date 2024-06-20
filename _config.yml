@@ -12,7 +12,7 @@ plugins: [jekyll-paginate]
 title:            "Quinson's Profile"
 tagline:          "Hon Kwan Shun Quinson's Profile"
 description:      'A Final-year artificial intelligence undergraduate in CUHK'
-url:              https://hksquinson.github.io/portfolio/
+url:              https://hksquinson.github.io/profile/
 baseurl:          '/'
 
 author:
@@ -22,7 +22,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          0.0.2
+version:          0.1.0
 
 github:
   repo:           https://github.com/poole/hyde
