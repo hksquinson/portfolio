@@ -6,7 +6,8 @@ highlighter:      rouge
 permalink:        pretty
 relative_permalinks: false
 
-plugins: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate-v2
 
 # Setup
 title:            "Quinson's Profile"
@@ -19,10 +20,13 @@ author:
   name:           'Hon Kwan Shun Quinson'
   url:            https://twitter.com/mdo
 
-paginate:         5
+pagination:
+  enabled: true
 
 # Custom vars
 version:          0.1.0
 
 github:
   repo:           https://github.com/poole/hyde
+
+

@@ -1,0 +1,28 @@
+---
+layout: default
+title: "Experiences"
+pagination:
+  enabled: true
+  collection: 'experiences'
+  per_page: 5
+  permalink: '/experiences/page/:num/'
+---
+
+<h1>Experiences</h1>
+<ul>
+  {% for experience in paginator.posts %}
+    <li>
+      <a href="{{ experience.url | relative_url }}">{{ experience.title }}</a>
+      - {{ experience.date | date: "%B %d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">Previous</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Next</a>
+  {% endif %}
+</div>
