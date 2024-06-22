@@ -1,24 +1,61 @@
 ---
 layout: default
-title: "Experiences"
+title: "Experience"
 ---
 
-<h1>Experience></h1>
+<h1>Experience</h1>
 
-<div class="posts">
-  {% for post in site.experiences %}
+{% assign experience_posts = site.experiences | where:"type", "experience" %}
+{% assign project_posts = site.experiences | where:"type", "project" %}
+{% assign leadership_posts = site.experiences | where:"type", "leadership" %}
+
+<h2>Projects</h2>
+{% for post in project_posts %}
   <div class="post">
     <div class="post-header">
         <h3 class="post-title">
-        <a href="{{ post.url }}">
+        <a href="{{ post.url | relative_url }}">
             {{ post.title }}
         </a>
         </h3>
 
-        <p class="post-date">{{ post.date | date_to_string }}</p>
+        <p class="post-date">{{ post.start_date | date: "%b %Y" }} - {{ post.end_date | date: "%b %Y"}}</p>
     </div>
 
     {{ post.content }}
   </div>
-  {% endfor %}
-</div>
+{% endfor %}
+
+<h2>Relevant Experience</h2>
+{% for post in experience_posts %}
+  <div class="post">
+    <div class="post-header">
+        <h3 class="post-title">
+        <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+        </a>
+        </h3>
+
+        <p class="post-date">{{ post.start_date | date: "%b %Y" }} - {{ post.end_date | date: "%b %Y"}}</p>
+    </div>
+
+    {{ post.content }}
+  </div>
+{% endfor %}
+
+<h2>Leadership Experience</h2>
+{% for post in leadership_posts %}
+  <div class="post">
+    <div class="post-header">
+        <h3 class="post-title">
+        <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+        </a>
+        </h3>
+
+        <p class="post-date">{{ post.start_date | date: "%b %Y" }} - {{ post.end_date | date: "%b %Y"}}</p>
+    </div>
+
+    {{ post.content }}
+  </div>
+{% endfor %}
