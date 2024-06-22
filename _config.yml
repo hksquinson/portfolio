@@ -7,7 +7,7 @@ permalink:        pretty
 relative_permalinks: false
 
 plugins: 
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 # Setup
 title:            "Quinson's Profile"
@@ -20,11 +20,19 @@ author:
   name:           'Hon Kwan Shun Quinson'
   url:            https://twitter.com/mdo
 
-pagination:
-  enabled: true
+paginate:         5 # default for all below; will be overridden by `per_page` value
+pagination: 
+  - paginate:
+      path:       /page:num/
+      per_page:   5
+
+collections:
+  experiences:
+    output: true
+    permalink: /experiences/:path/
 
 # Custom vars
-version:          0.1.0
+version:          0.1.1
 
 github:
   repo:           https://github.com/poole/hyde
