@@ -28,11 +28,14 @@ pagination:
 
 collections:
   experiences:
-    output: false
+    output: true
     permalink: /experiences/:path/
+  news:
+    output: true
+    permalink: /news/:path/
 
 # Custom vars
-version:          0.2.0
+version:          0.2.1
 
 github:
   repo:           https://github.com/poole/hyde

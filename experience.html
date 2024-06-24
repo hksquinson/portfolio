@@ -6,9 +6,10 @@ title: "Experience"
 <h1>Experience</h1>
 
 {% assign ongoing_posts = site.experiences | where:"type", "ongoing" | sort: 'start_date' | reverse %}
-{% assign experience_posts = site.experiences | where:"type", "experience" | sort: 'end_date' | reverse %}
 {% assign project_posts = site.experiences | where:"type", "project" | sort: 'end_date' | reverse %}
-{% assign leadership_posts = site.experiences | where:"type", "leadership" | sort: 'end_date' | reverse %}
+{% assign work_posts = site.experiences | where:"type", "work" | sort: 'start_date' | reverse %}
+{% assign experience_posts = site.experiences | where:"type", "experience" | sort: 'end_date' | reverse %}
+
 
 <h2>Ongoing Projects</h2>
 {% for post in ongoing_posts %}
@@ -44,8 +45,8 @@ title: "Experience"
   </div>
 {% endfor %}
 
-<h2>Relevant Experience</h2>
-{% for post in experience_posts %}
+<h2>Work Experience</h2>
+{% for post in work_posts %}
   <div class="post">
     <div class="post-header">
         <h3 class="post-title">
@@ -61,8 +62,8 @@ title: "Experience"
   </div>
 {% endfor %}
 
-<h2>Leadership Experience</h2>
-{% for post in leadership_posts %}
+<h2>Other Experience</h2>
+{% for post in experience_posts %}
   <div class="post">
     <div class="post-header">
         <h3 class="post-title">
