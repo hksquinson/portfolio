@@ -1,12 +1,12 @@
 ---
 layout: experience
-title: "AI Intern, AlphaEnergyIoT Ltd."
+title: "AI Engineer, AlphaEnergyIoT Ltd."
 type: work
 start_date: 2024-02-01
-end_date: 
+end_date: 2024-08-16
 ---
-- Contributed to the development of a proximity marketing solution leveraging Bluetooth Low-Energy beacons
-- Analyzed and tested CNNs and multi-modal architectures for image tagging in advertisements
-<!-- - Implemented sophisticated recommendation algorithms on mobile platforms to optimize ad ranking based on consumer preferences -->
-- Collaborated with cross-functional teams to integrate recommendation systems with BLE beacons and cloud infrastructure
-<!-- - Recognized as a finalist in the 2nd City I&T Grand Challenge competition -->
+
+- Analysed and tested CNNs and multi-modal architectures for tagging fashion product images, achieving an F-score of 0.81 on a dataset with over 2000 possible labels
+- Writing reports comparing model performances 
+- Developing plans to integrate recommendation systems with Bluetooth Low-Energy (BLE) beacons and cloud infrastructure
+- Innovation Award & Top 3 Finalist in the 2nd City I&T Grand Challenge, proposing an application of AI-enhanced BLE beacons on hiking trails for entertainment and safety

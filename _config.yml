@@ -12,13 +12,13 @@ plugins:
 # Setup
 title:            "Quinson's Profile"
 tagline:          "Hon Kwan Shun Quinson's Profile"
-description:      'Penultimate-year undergraduate student at the Chinese University of Hong Kong'
+description:      'Final-year undergraduate student at the Chinese University of Hong Kong'
 url:              https://hksquinson.github.io/profile/
 baseurl:          '/'
 
 author:
   name:           'Hon Kwan Shun Quinson'
-  url:            https://twitter.com/mdo
+  url:            https://hksquinson.github.io/profile/
 
 paginate:         5 # default for all below; will be overridden by `per_page` value
 pagination: 
@@ -35,9 +35,9 @@ collections:
     permalink: /news/:path/
 
 # Custom vars
-version:          0.2.1
+version:          0.2.2
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/hksquinson/profile
 
 
