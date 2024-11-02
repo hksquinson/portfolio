@@ -1,6 +1,6 @@
 ---
 layout: experience
-title: "Student Helper"
+title: "Student Helper, Office of Digital Literacy Education, CUHK"
 type: work
 start_date: 2023-07-01
 end_date: 2023-08-31

@@ -1,6 +1,6 @@
 ---
 layout: experience
-title: "Teaching Assistant for Python Training"
+title: "Teaching Assistant for Python Training, CUHK Business School"
 type: work
 start_date: 2023-08-01
 end_date: 2023-08-31
