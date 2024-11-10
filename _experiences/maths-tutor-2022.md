@@ -1,7 +1,7 @@
 ---
 layout: experience
 title: "Mathematics Tutor for HKDSE Supplementary Classes, <br> SKH Bishop Mok Sau Tseng Secondary School"
-type: experience
+type: 
 start_date: 2022-11-01
 end_date: 2023-01-31
 ---

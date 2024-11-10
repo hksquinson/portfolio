@@ -35,7 +35,7 @@ collections:
     permalink: /news/:path/
 
 # Custom vars
-version:          0.3.1
+version:          0.3.2
 
 github:
   repo:           https://github.com/hksquinson/profile

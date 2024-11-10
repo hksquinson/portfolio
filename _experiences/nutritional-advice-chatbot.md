@@ -1,7 +1,7 @@
 ---
 layout: experience
 title: "AI-Powered Nutrition Analysis"
-type: research
+type: project
 start_date: 2024-05-01
 end_date: 2024-08-31
 ---
